@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "list": [
+      {
+        "colorScheme": "Campbell",
+        "font": {
+          "face": "UbuntuMono Nerd Font",
+          "size": 14.0
+        },
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "name": "Windows PowerShell"
+      }
+    ]
+  }
+}
