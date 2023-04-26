@@ -17,13 +17,13 @@
 - W10: config path: `%userprofile%/.config/`
 - W10: run `notepad $PROFILE` and add following line at the end of file
 
-### wezterm
-
-- W10: wezterm foled config path: `%userprofile%/.config/`
-
 ```
 Invoke-Expression (&starship init powershell)
 ```
+
+### wezterm
+
+- W10: wezterm foled config path: `%userprofile%/.config/`
 
 ### git aliases for W10
 
