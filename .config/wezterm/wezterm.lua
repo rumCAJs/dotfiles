@@ -17,6 +17,7 @@ end
 config.color_scheme = "Gruvbox dark, hard (base16)"
 
 config.window_background_opacity = 0.99
+config.font_size = 14.0
 
 -- run powershell by default
 if wezterm.target_triple == "x86_64-pc-windows-msvc" then
