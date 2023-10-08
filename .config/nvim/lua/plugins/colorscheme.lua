@@ -13,12 +13,27 @@ return {
     "rose-pine/neovim",
     lazy = true,
     name = "rose-pine",
+    opts = {
+      variat = "moon",
+      dark_variant = "moon",
+      groups = {
+        -- background = "#181725",
+        background = "#14131f",
+      },
+    },
+  },
+  {
+    "catppuccin/nvim",
+    lazy = true,
+    name = "catppuccin",
+    opts = { flavour = "mocha" },
   },
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "rose-pine",
+      -- colorscheme = "gruvbox",
     },
   },
 }

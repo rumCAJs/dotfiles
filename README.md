@@ -1,5 +1,12 @@
 ## Dotfiles
 
+### macos
+
+```bash
+# disable mouse acceleration
+defaults write .GlobalPreferences com.apple.mouse.scaling -1
+```
+
 ### terminal
 
 - install nerd font - https://www.nerdfonts.com/font-downloads (Ubuntu)
