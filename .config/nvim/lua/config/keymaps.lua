@@ -4,6 +4,10 @@
 
 vim.cmd('imap <silent><script><expr> <C-j> copilot#Accept("\\<CR>")')
 vim.cmd("let g:copilot_no_tab_map = v:true")
+vim.keymap.set("n", "<C-s>", "<cmd>w<CR>")
+
+-- map jj to <Esc> in insert mode
+vim.keymap.set("i", "jj", "<Esc>", { noremap = true, silent = true, desc = "Escape insert mode" })
 
 local function map(mode, lhs, rhs, opts)
   local keys = require("lazy.core.handler").handlers.keys
